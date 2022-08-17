@@ -1,0 +1,75 @@
+.app {
+    width: 70vw;
+    height: 100%;
+    margin: 2rem auto;
+    text-align: center;
+    background-color: #dedede;
+    padding: 20px;
+    border-radius: 1.25rem;
+}
+
+.app h2 {
+    color: #674c88;
+}
+
+.app p {
+    color: #483d55;
+}
+
+.form-fields {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-fields .file-field input[type="file"] {
+    display: none;
+}
+.form-fields .file-field .file-upload {
+    margin: 2rem auto;
+    display: block;
+    background-color: #674c88;
+    border-radius: 1.5rem;
+    font-size: 1.25rem;
+    height: 50px;
+    color: #fff;
+    width: 150px;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+button {
+    margin: 2rem auto;
+    display: block;
+    cursor: pointer;
+}
+
+.result {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+video {
+    margin-top: 1.2rem;
+}
+
+button,
+.result a {
+    font-size: 1.25rem;
+    height: 50px;
+    color: #fff;
+    background-color: #674c88;
+    width: 100px;
+    border-radius: 1.5rem;
+}
+
+.result a {
+    display: block;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 1.25rem;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
